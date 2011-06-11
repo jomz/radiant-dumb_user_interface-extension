@@ -1,6 +1,6 @@
 document.observe("dom:loaded", function() {
-	$$("div.part p select").select(function(el) { return /filter_id/.test(el.name) }).invoke("hide")
-	$$("div.part p label").select(function(el) { return /filter_id/.test(el.readAttribute("for")) }).invoke("hide")
+//	$$("div.part p select").select(function(el) { return /filter_id/.test(el.name) }).invoke("hide")
+//	$$("div.part p label").select(function(el) { return /filter_id/.test(el.readAttribute("for")) }).invoke("hide")
 	
 	$$("div.part .reference_links").invoke("hide")
 	
